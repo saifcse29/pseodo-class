@@ -33,3 +33,20 @@ div{
 div a:visited{
     color: green;
 }
+li:first-child{
+    color: blueviolet;
+}
+li:nth-child(2n){
+    color:deeppink;
+    background-color: darkgrey;
+}
+li:nth-child(2n+1){
+    color:aqua;
+    background-color: crimson;
+}
+h3::before{
+    content: 'Saif ';
+}
+h3::after{
+    content: ' Folk Music';    
+}
