@@ -27,3 +27,9 @@ h1:hover{
     padding: 5px 15px;
     border-radius: 8px;
 }
+div{
+    text-align: center;
+}
+div a:visited{
+    color: green;
+}
